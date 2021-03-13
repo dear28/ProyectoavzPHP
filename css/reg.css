@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-image: url("../img/log.jpg");
+	background-color: #448cad;
+	height: 800px;
+  	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+.main-section{
+    margin: 0 auto;
+    margin-top: 32%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #261F1F;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 5px #c0bcbc;
+
+}
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 5px #c0bcbc;
+    border-radius: 50%;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.input-group-text{
+    height: 42px;
+    font-size: 22px;
+    border:0;
+    margin-bottom: 10px;
+    padding-left: 12px;
+}
+button, a{
+    width: 80%;
+    margin: 5px 0 25px;
+}
